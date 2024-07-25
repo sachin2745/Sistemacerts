@@ -6,12 +6,14 @@ import Stats from './(main)/Stats/page'
 import WhyChooseUs from './(main)/Whychooseus/page'
 import Iso from './(main)/Iso/page'
 import About from './(main)/About/page'
+import Services from './(main)/Services/page'
 
 const page = () => {
   return (
     <>
       <Header />
       <About />
+      <Services />
       <Iso />
       <WhyChooseUs />
       <Stats />
