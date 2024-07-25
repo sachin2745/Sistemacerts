@@ -1,6 +1,41 @@
+"use client"
 import React from 'react'
+import { useCountUp } from 'react-countup';
 
 const Stats = () => {
+
+    useCountUp({
+        ref: 'counter',
+        end: 45,
+        enableScrollSpy: true,
+        scrollSpyDelay: 1000,
+
+    });
+
+    useCountUp({
+        ref: 'counter2',
+        end: 1750,
+        enableScrollSpy: true,
+        scrollSpyDelay: 1000,
+
+    });
+
+    useCountUp({
+        ref: 'counter3',
+        end: 100,
+        enableScrollSpy: true,
+        scrollSpyDelay: 1000,
+
+    });
+
+    useCountUp({
+        ref: 'counter4',
+        end: 1250,
+        enableScrollSpy: true,
+        scrollSpyDelay: 1000,
+
+    });
+
     return (
         <section className="flex flex-col mt-20 mb-10 p-5 sm:p-0">
             <p className="font-semibold text-tri text-xl md:text-3xl text-center uppercase font-Montserrat">
@@ -45,9 +80,12 @@ const Stats = () => {
                             />
                         </svg> */}
                         <img src="medal.png" className="group-hover:animate-bounce w-[35px] h-[35px] md:w-[50px] md:h-[50px]" alt="certificates" />
-                        <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-primary ml-2 text-white">
+                        {/* <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-primary ml-2 text-white">
                             1750+
-                        </p>
+                        </p> */}
+                        <div className="App font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-white ml-2 ">
+                            <span id="counter2" />+
+                        </div>
                     </div>
                     <p className="font-medium text-base sm:text-xl leading-6 mt-3 md:mt-6 text-center text-white">
                         Certificates
@@ -77,9 +115,12 @@ const Stats = () => {
                             </defs>
                         </svg> */}
                         <img src="auditor.png" className="group-hover:animate-bounce w-[35px] h-[35px] md:w-[50px] md:h-[50px]" alt="auditor" />
-                        <p className="font-bold text-3xl sm:text-4xl  lg:text-5xl leading-9 text-primary ml-2 text-white">
+                        {/* <p className="font-bold text-3xl sm:text-4xl  lg:text-5xl leading-9 text-primary ml-2 text-white">
                             100+
-                        </p>
+                        </p> */}
+                         <div className="App font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-white ml-2 ">
+                            <span id="counter3" />+
+                        </div>
                     </div>
                     <p className="font-medium text-base sm:text-xl leading-6 mt-3 md:mt-6 text-center text-white">
                         Auditors
@@ -110,9 +151,12 @@ const Stats = () => {
                             </defs>
                         </svg> */}
                         <img src="planet-earth.png" className="group-hover:animate-bounce w-[35px] h-[35px] md:w-[50px] md:h-[50px]" alt="country" />
-                        <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-white ml-2">
+                        {/* <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-white ml-2">
                             45+
-                        </p>
+                        </p> */}
+                        <div className="App font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-white ml-2">
+                            <span id="counter" />+
+                        </div>
                     </div>
                     <p className="font-medium text-base sm:text-xl leading-6 mt-3 md:mt-6 text-center text-white">
                         Country Support
@@ -142,9 +186,12 @@ const Stats = () => {
                             />
                         </svg> */}
                         <img src="costumer.png" className="group-hover:animate-bounce w-[35px] h-[35px] md:w-[50px] md:h-[50px]" alt="clients" />
-                        <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-primary text-white ml-2">
+                        {/* <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-primary text-white ml-2">
                             1250+
-                        </p>
+                        </p> */}
+                         <div className="App font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-white ml-2 ">
+                            <span id="counter4" />+
+                        </div>
                     </div>
                     <p className="font-medium text-base sm:text-xl leading-6 mt-3 md:mt-6 text-center text-white">
                         Happy Clients
