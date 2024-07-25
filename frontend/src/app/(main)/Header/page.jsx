@@ -25,6 +25,9 @@ import { IoMdArrowDropright } from "react-icons/io";
 import { MegaMenu, Navbar } from 'flowbite-react'
 import { HiArrowRight, HiChevronDown } from 'react-icons/hi';
 import './header.css'
+import { IoCallSharp } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
+import { FaMapPin } from "react-icons/fa";
 
 const services = [
   { name: 'Auditing & Certifications', description: 'Management System & Product Compliances', href: '#', icon: ChartPieIcon },
@@ -62,6 +65,14 @@ const products = [
   { name: 'ISO 45001 Certification', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
   { name: 'ISO 22000 Certification', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
   { name: 'ISO 22301 Certification', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+
+]
+const location = [
+  { name: 'ASIA', href: '#', icon: ChartPieIcon },
+  { name: 'NORTH AMERICA', href: '#', icon: CursorArrowRaysIcon },
+  { name: 'SOUTH AMERICA', href: '#', icon: FingerPrintIcon },
+  { name: 'EUROPE', href: '#', icon: SquaresPlusIcon },
+  { name: 'AFRICA', href: '#', icon: ArrowPathIcon },
 
 ]
 const callsToAction = [
@@ -110,7 +121,7 @@ export default function Header() {
 
             <PopoverPanel
               transition
-              className="flex font-Montserrat absolute -left-[860px] top-full z-30 mt-3 w-screen max-w-screen-2xl overflow-hidden rounded-md bg-white shadow-lg  transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+              className="flex font-Montserrat absolute -left-[840px] top-full z-30 mt-3 w-screen max-w-screen-2xl overflow-hidden rounded-md bg-white shadow-lg  transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
               <div className='flex-1 px-10'>
                 <h2 className='uppercase mt-5 text-lg font-extrabold font-Lato tracking-wider '>Business <span className='text-tri'>Services</span></h2>
@@ -161,7 +172,7 @@ export default function Header() {
 
             <PopoverPanel
               transition
-              className="flex font-Montserrat absolute -left-[1000px] top-full z-30 mt-3 w-screen max-w-screen-2xl overflow-hidden rounded-md bg-white shadow-lg  transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+              className="flex font-Montserrat absolute -left-[980px] top-full z-30 mt-3 w-screen max-w-screen-2xl overflow-hidden rounded-md bg-white shadow-lg  transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
               <div className='flex-shrink px-10'>
                 <h2 className='uppercase mt-5 text-lg font-extrabold font-Lato tracking-wider '>Certification <span className='text-tri'>Services</span></h2>
@@ -242,9 +253,63 @@ export default function Header() {
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Sectors
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Location
-          </a>
+          <Popover className="relative">
+            <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+              Location
+              <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none text-gray-400" />
+            </PopoverButton>
+
+            <PopoverPanel
+              transition
+              className="flex font-Montserrat p-5 absolute -left-[1200px] top-full z-30 mt-3 w-screen max-w-screen-2xl overflow-hidden rounded-md bg-white shadow-lg  transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+            >
+
+              <div className="p-4 items-center flex-1    ">
+                <h2 className='flex p-4 uppercase mt-5 text-lg font-extrabold font-Lato tracking-wider '>
+                  Global &nbsp; <span className='text-tri'>Presence</span>
+                </h2>
+
+                {location.map((item) => (
+                  <div
+                    key={item.name}
+                    className="group relative flex items-center  gap-x-4 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                  >
+                    {/* <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" />
+                    </div> */}
+                    <div className="flex-auto">
+                      <a href={item.href} className="flex gap-x-2 font-bold text-md text-gray-900">
+                        <FaMapPin className='mt-1' /> {item.name}
+                        <span className="absolute inset-0" />
+                      </a>
+
+                    </div>
+
+                  </div>
+                ))}
+                <div className="flex p-4 justify-between border-2 border-pri">
+                  <h2 className='flex gap-x-2 '> <MdEmail className='mt-1' />sistemacerts@gmail.com</h2>
+                  <h2 className='flex gap-x-2 '><IoCallSharp className='mt-1' />+91 63 9001 9004</h2>
+                </div>
+              </div>
+
+              <div className='flex-1'>
+                <img src="map.png" className='h-96 aspect-video  mt-4 mb-10  ' alt="" />
+              </div>
+              {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                {callsToAction.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
+                  >
+                    <item.icon aria-hidden="true" className="h-5 w-5 flex-none text-gray-400" />
+                    {item.name}
+                  </a>
+                ))}
+              </div> */}
+            </PopoverPanel>
+          </Popover>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             About
           </a>
