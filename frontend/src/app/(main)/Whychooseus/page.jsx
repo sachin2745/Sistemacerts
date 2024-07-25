@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
           <p className="lg:w-1/2 w-full sm:text-3xl text-xl md:-mb-5 font-semibold leading-relaxed text-tri uppercase">
             Quality Sistema
           </p>
-          <h1 className="sm:text-3xl text-4xl font-bold title-font  text-pri uppercase">
+          <h1 className="sm:text-3xl text-4xl font-extrabold title-font  text-pri uppercase">
             Why Choose Us <span className='sm:text-3xl text-6xl'>?</span>
           </h1>
         </div>
