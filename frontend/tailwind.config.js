@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         pri: "#0D141D",
         sec: "#09342C",
-        tri: "#D46F11",        
+        tri: "#FF5F1F",        
       },
 
     },
