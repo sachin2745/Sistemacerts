@@ -3,7 +3,7 @@ import React from 'react'
 
 const Services = () => {
     return (
-        <div className="bg-white py-6 sm:py-8 lg:py-12">
+        <div className="bg-white py-6 sm:py-8 lg:py-12 mt-10 mb-20">
             <div className="mx-auto max-w-screen-xl px-4 md:px-0">
                 {/* text - start */}
                 <div className="mb-10 md:mb-16 font-Montserrat">
@@ -16,7 +16,7 @@ const Services = () => {
                     </h2>
                 </div>
                 {/* text - end */}
-                <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-4 xl:grid-cols-4 xl:gap-8">
+                <div className="font-Montserrat grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-4 xl:grid-cols-4 xl:gap-8">
                     {/* article - start */}
                     <a
                         href="#"
@@ -24,7 +24,7 @@ const Services = () => {
                     >
                         <img
                             src="service1.jpg"
-                            loading="lazy"
+                            
                             alt="Photo by Minh Pham"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         />
