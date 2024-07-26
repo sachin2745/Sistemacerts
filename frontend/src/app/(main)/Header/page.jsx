@@ -147,7 +147,7 @@ export default function Header() {
                 ))}
               </div>
               <div className='flex-1'>
-                <img src="img5.png" className='h-80 w-auto mt-9 ' alt="" />
+                <img src="img5.avif" className='h-80 w-auto mt-9 ' alt="" />
               </div>
               {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                 {callsToAction.map((item) => (
