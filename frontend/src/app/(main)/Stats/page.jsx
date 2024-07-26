@@ -56,7 +56,7 @@ const Stats = () => {
 
             </p>
             <div className="font-Kanit mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 place-items-center w-full mx-auto max-w-7xl px-5">
-                <div className="flex flex-col justify-center group cursor-pointer items-center bg-tri/80 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
+                <div className="flex flex-col justify-center group cursor-pointer items-center bg-sec px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
                     <div className="flex flex-row justify-center items-center">
                         {/* <svg
                             className="w-[35px] h-[35px] md:w-[50px] md:h-[50px]"
@@ -91,7 +91,7 @@ const Stats = () => {
                         Certificates
                     </p>
                 </div>
-                <div className="flex flex-col justify-center group cursor-pointer items-center bg-tri/80 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
+                <div className="flex flex-col justify-center group cursor-pointer items-center bg-sec px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
                     <div className="flex flex-row justify-center items-center">
                         {/* <svg
                             className="w-[35px] h-[35px] md:w-[50px] md:h-[50px]"
@@ -126,7 +126,7 @@ const Stats = () => {
                         Auditors
                     </p>
                 </div>
-                <div className="flex flex-col justify-center group cursor-pointer items-center bg-tri/80 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center ">
+                <div className="flex flex-col justify-center group cursor-pointer items-center bg-sec px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center ">
                     <div className="flex flex-row justify-center items-center">
                         {/* <svg
                             className="w-[35px] h-[35px] md:w-[50px] md:h-[50px]"
@@ -162,7 +162,7 @@ const Stats = () => {
                         Country Support
                     </p>
                 </div>
-                <div className="flex flex-col justify-center group cursor-pointer items-center bg-tri/80 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
+                <div className="flex flex-col justify-center group cursor-pointer items-center bg-sec px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
                     <div className="flex flex-row justify-center items-center">
                         {/* <svg
                             className="w-[35px] h-[35px] md:w-[50px] md:h-[50px]"

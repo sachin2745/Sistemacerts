@@ -32,7 +32,7 @@ const About = () => {
                             <span className='block bg-tri w-56 h-1  mt-5 mb-6'></span>
 
                             <p className="mt-10 text-gray-600 font-medium ">
-                                “Quality Sistema Certifications & Inspections Pvt. Ltd. is one of the leading Global Organization, providing ISO Certifications, Inspection, Assurance & Auditing Services for industries with competence and transparency to build trust across the global industries. We are a team of highly specialized experts and industry professionals who working towards a sustainable business growth.”
+                            &ldquo;Quality Sistema Certifications & Inspections Pvt. Ltd. is one of the leading Global Organization, providing ISO Certifications, Inspection, Assurance & Auditing Services for industries with competence and transparency to build trust across the global industries. We are a team of highly specialized experts and industry professionals who working towards a sustainable business growth.&rdquo;
                             </p>
 
 

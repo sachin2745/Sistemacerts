@@ -8,6 +8,7 @@ import Iso from './(main)/Iso/page'
 import About from './(main)/About/page'
 import Services from './(main)/Services/page'
 import Hero from './(main)/Hero/page'
+import Certification from './(main)/Certification/page'
 
 const page = () => {
   return (
@@ -16,6 +17,7 @@ const page = () => {
       <Hero />
       <About />
       <Services />
+      <Certification />
       <Iso />
       <WhyChooseUs />
       <Stats />
