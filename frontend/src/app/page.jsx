@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import Header from './(main)/Header/page'
 import Footer from './(main)/Footer/page'
