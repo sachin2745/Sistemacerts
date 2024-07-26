@@ -7,11 +7,13 @@ import WhyChooseUs from './(main)/Whychooseus/page'
 import Iso from './(main)/Iso/page'
 import About from './(main)/About/page'
 import Services from './(main)/Services/page'
+import Hero from './(main)/Hero/page'
 
 const page = () => {
   return (
     <>
       <Header />
+      <Hero />
       <About />
       <Services />
       <Iso />
