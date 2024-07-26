@@ -125,7 +125,7 @@ export default function Header() {
             >
               <div className='flex-1 px-10'>
                 <h2 className='uppercase mt-5 text-lg font-extrabold font-Lato tracking-wider '>Business <span className='text-tri'>Services</span></h2>
-                <img src="img3.jpg" className='h-72 w-auto mt-4 mb-10   pr-5' alt="" />
+                <img src="img3.avif" className='h-72 w-auto mt-4 mb-10   pr-5' alt="" />
               </div>
               <div className="p-4 flex-1 mt-6">
                 {services.map((item) => (
@@ -176,7 +176,7 @@ export default function Header() {
             >
               <div className='flex-shrink px-10'>
                 <h2 className='uppercase mt-5 text-lg font-extrabold font-Lato tracking-wider '>Certification <span className='text-tri'>Services</span></h2>
-                <img src="service2.jpg" className='h-72 w-auto mt-4 mb-10   pr-5' alt="" />
+                <img src="service2.avif" className='h-72 w-auto mt-4 mb-10   pr-5' alt="" />
               </div>
               <div className="p-4 flex-1">
                 {standard.map((item) => (
@@ -294,7 +294,7 @@ export default function Header() {
               </div>
 
               <div className='flex-1'>
-                <img src="map.png" className='h-96 aspect-video  mt-4 mb-10  ' alt="" />
+                <img src="map.avif" className='h-96 aspect-video  mt-4 mb-10  ' alt="" />
               </div>
               {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                 {callsToAction.map((item) => (

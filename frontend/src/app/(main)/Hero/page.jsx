@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className=" lg:flex  ">
             <img
-                src="img2.jpg"
+                src="img2.avif"
                 alt="Leafs"
                 className="w-full h-[500px]  md:h-[700px] block lg:hidden object-cover sm:h-screen sm:w-4/12"
             />
@@ -66,7 +66,7 @@ const Hero = () => {
                 </div>
             </div>
             <img
-                src="img2.jpg"
+                src="img2.avif"
                 alt="Leafs"
                 className="w-full h-[500px]  md:h-[700px]   hidden lg:block object-cover  sm:w-4/12"
             />

@@ -14,7 +14,7 @@ const Certification = () => {
                     </h2>
                 </div>
                 {/* text - end */}
-                <div className="grid gap-4 sm:grid-cols-3 md:gap-8 xl:grid-cols-3 text-center font-Kanit bg-[url('/img6.jpg')] bg-cover p-10 rounded-md">
+                <div className="grid gap-4 sm:grid-cols-3 md:gap-8 xl:grid-cols-3 text-center font-Kanit bg-[url('/img6.avif')] bg-cover p-10 rounded-md">
                     {/* feature - start */}
                     <div className='flex-row  '>
                         <div className="flex flex-col rounded-lg border bg-white  p-4 md:p-6 ">

@@ -23,7 +23,7 @@ const Services = () => {
                         className="group relative flex h-56 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96"
                     >
                         <img
-                            src="service1.jpg"
+                            src="service1.avif"
                             
                             alt="Photo by Minh Pham"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -43,8 +43,8 @@ const Services = () => {
                         className="group relative flex h-56 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96"
                     >
                         <img
-                            src="service2.jpg"
-                            loading="lazy"
+                            src="service2.avif"
+                            
                             alt="Photo by Lorenzo Herrera"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         />
@@ -64,7 +64,7 @@ const Services = () => {
                     >
                         <img
                             src="service3.jpg"
-                            loading="lazy"
+                           
                             alt="Photo by Magicle"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         />
@@ -83,8 +83,8 @@ const Services = () => {
                         className="group relative flex h-56 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96"
                     >
                         <img
-                            src="service4.jpg"
-                            loading="lazy"
+                            src="service4.avif"
+                           
                             alt="Photo by Martin Sanchez"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-300 group-hover:scale-110"
                         />

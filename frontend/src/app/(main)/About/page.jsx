@@ -9,7 +9,7 @@ const About = () => {
                         <div className="relative h-64 sm:h-80 lg:h-full ">
                             <img
                                 alt=""
-                                src="img1.jpg"
+                                src="img1.avif"
                                 className="absolute inset-0 h-96 w-full overflow-hidden  object-cover hover:scale-90 duration-300 transition ease-in-out delay-150"
                             />
                         </div>
