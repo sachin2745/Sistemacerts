@@ -265,7 +265,7 @@ export default function Header() {
             >
 
               <div className="p-4 items-center flex-1    ">
-                <h2 className='flex p-4 uppercase mt-5 text-lg font-extrabold font-Lato tracking-wider '>
+                <h2 className='flex p-4 uppercase mt-5 text-xl font-extrabold font-Lato tracking-wider '>
                   Global &nbsp; <span className='text-tri'>Presence</span>
                 </h2>
 
@@ -287,7 +287,7 @@ export default function Header() {
 
                   </div>
                 ))}
-                <div className="flex p-4 justify-between border-2 border-pri">
+                <div className="flex p-4 justify-between  border-b-4 border-t-2 border-r-2 border-l-2 border-pri">
                   <h2 className='flex gap-x-2 '> <MdEmail className='mt-1' />sistemacerts@gmail.com</h2>
                   <h2 className='flex gap-x-2 '><IoCallSharp className='mt-1' />+91 63 9001 9004</h2>
                 </div>
