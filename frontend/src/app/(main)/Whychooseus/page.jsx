@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
                 Innovative Thinking
               </h2>
               <p className="leading-relaxed text-base font-Lato group-hover:text-white">
-                We committed to using innovative thinking to respond to increasing requirements for sustainable business and to add value to our clients’ activities.
+                We committed to using innovative thinking to respond to increasing requirements for sustainable business and to add value to our client&apos;s activities.
               </p>
             </div>
           </div>
@@ -73,7 +73,7 @@ const WhyChooseUs = () => {
                 Decades of Experience
               </h2>
               <p className="leading-relaxed text-base group-hover:text-white">
-                With the help of our organization's experience, we ensure you the best and robust operational system, guaranteed your business success over your competitors
+                With the help of our organization&apos;s experience, we ensure you the best and robust operational system, guaranteed your business success over your competitors.
               </p>
             </div>
           </div>
