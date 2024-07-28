@@ -19,13 +19,7 @@ const Hero = () => {
                         <div className="text-md font-bold uppercase font-Montserrat">
                             Quality Sistema <span className='text-sec'>Certifications and Inspections</span>
                         </div>
-                        <div>
-                            <img
-                                src="https://image.flaticon.com/icons/svg/497/497348.svg"
-                                alt=""
-                                className="w-8"
-                            />
-                        </div>
+                       
                     </nav>
                     <header className="container px-4 lg:flex mt-10 items-center h-full lg:mt-0 font-Montserrat">
                         <div className="w-full">
