@@ -1,13 +1,16 @@
 "use client";
+import Image from 'next/image';
 import React from 'react'
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Hero = () => {
     return (
         <div className=" lg:flex  ">
-            <img
-                src="img2.avif"
-                alt="Leafs"
+            <Image
+                src="/img2.avif"
+                width={500}
+                height={500}    
+                alt="Hero"
                 className="w-full h-[500px]  md:h-[700px] block lg:hidden object-cover sm:h-screen sm:w-4/12"
             />
             <div className="w-full sm:w-8/12 mb-10 mt-3">

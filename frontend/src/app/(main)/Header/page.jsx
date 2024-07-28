@@ -28,6 +28,7 @@ import './header.css'
 import { IoCallSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaMapPin } from "react-icons/fa";
+import Image from 'next/image';
 
 const services = [
   { name: 'Auditing & Certifications', description: 'Management System & Product Compliances', href: '#', icon: ChartPieIcon },
@@ -125,7 +126,7 @@ export default function Header() {
             >
               <div className='flex-1 px-10'>
                 <h2 className='uppercase mt-5 text-lg font-extrabold font-Lato tracking-wider '>Business <span className='text-tri'>Services</span></h2>
-                <img src="img3.avif" className='h-72 w-auto mt-4 mb-10   pr-5' alt="" />
+                <Image src="/img3.avif" width={500} height={500} className='h-72 w-auto mt-4 mb-10   pr-5' alt="Services" />
               </div>
               <div className="p-4 flex-1 mt-6">
                 {services.map((item) => (
@@ -147,7 +148,7 @@ export default function Header() {
                 ))}
               </div>
               <div className='flex-1'>
-                <img src="img5.avif" className='h-80 w-auto mt-9 ' alt="" />
+                <Image src="/img5.avif" width={500} height={500} className='h-80 w-auto mt-9 ' alt="Core values" />
               </div>
               {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                 {callsToAction.map((item) => (
@@ -176,7 +177,7 @@ export default function Header() {
             >
               <div className='flex-shrink px-10'>
                 <h2 className='uppercase mt-5 text-lg font-extrabold font-Lato tracking-wider '>Certification <span className='text-tri'>Services</span></h2>
-                <img src="service2.avif" className='h-72 w-auto mt-4 mb-10   pr-5' alt="" />
+                <Image src="/service2.avif" width={500} height={500} className='h-72 w-auto mt-4 mb-10   pr-5' alt="Services" />
               </div>
               <div className="p-4 flex-1">
                 {standard.map((item) => (
@@ -294,7 +295,7 @@ export default function Header() {
               </div>
 
               <div className='flex-1'>
-                <img src="map.avif" className='h-96 aspect-video  mt-4 mb-10  ' alt="" />
+                <img src="/map.avif" loading="lazy" width="auto" height={500} className='h-96 aspect-video  mt-4 mb-10  ' alt="Location" />
               </div>
               {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                 {callsToAction.map((item) => (

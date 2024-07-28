@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React from 'react'
 
 const About = () => {
@@ -8,9 +9,11 @@ const About = () => {
                 <div className="grid grid-cols-1 lg:h-full lg:grid-cols-2">
                     <div className="relative z-10 lg:py-16">
                         <div className="relative h-64 sm:h-80 lg:h-full ">
-                            <img
-                                alt=""
-                                src="img1.avif"
+                            <Image                               
+                                src="/img1.avif"
+                                width={500}
+                                height={500}
+                                alt="About Us"
                                 className="absolute inset-0 h-96 w-full overflow-hidden  object-cover hover:scale-90 duration-300 transition ease-in-out delay-150"
                             />
                         </div>

@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React from 'react'
 
 const Services = () => {
@@ -22,10 +23,12 @@ const Services = () => {
                         href="#"
                         className="group relative flex h-56 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96"
                     >
-                        <img
-                            src="service1.avif"
-                            
-                            alt="Photo by Minh Pham"
+                        <Image
+                            src="/service1.avif"
+                            width={500}
+                            height={500}                            
+                            alt="Auditing"
+                            loading="lazy"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent" />
@@ -42,10 +45,12 @@ const Services = () => {
                         href="#"
                         className="group relative flex h-56 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96"
                     >
-                        <img
-                            src="service2.avif"
-                            
-                            alt="Photo by Lorenzo Herrera"
+                        <Image
+                            src="/service2.avif"
+                            width={500}
+                            height={500} 
+                            loading="lazy"   
+                            alt="Certifications"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent" />
@@ -62,10 +67,12 @@ const Services = () => {
                         href="#"
                         className="group relative flex h-56 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96"
                     >
-                        <img
-                            src="service3.jpg"
-                           
-                            alt="Photo by Magicle"
+                        <Image
+                            src="/service3.jpg"
+                            width={500}
+                            height={500}    
+                            alt="Product Testing"
+                            loading="lazy"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                         />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent" />
@@ -82,10 +89,12 @@ const Services = () => {
                         href="#"
                         className="group relative flex h-56 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96"
                     >
-                        <img
-                            src="service4.avif"
-                           
-                            alt="Photo by Martin Sanchez"
+                        <Image
+                            src="/service4.avif"
+                            width={500}
+                            height={500}    
+                            alt="Training"
+                            loading="lazy"
                             className="absolute inset-0 h-full w-full object-cover object-center transition duration-300 group-hover:scale-110"
                         />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent" />
